@@ -1,0 +1,31 @@
+main: me.thehutch.iskin.Main
+name: iSkin
+version: 5.0.0
+mcversion: 1.6.4
+author: thehutch
+depends: Spout
+commands:
+    iskin:
+        description: Base command for iSkin.
+permissions:
+    iskin.*:
+        description: Gives access to all iSkin abilities.
+        children:
+            iskin.setplayer: true
+            iskin.setgroup: true
+            iskin.help: true
+    iskin.setplayer:
+        description: Allows the player to changes a player's attributes.
+        default: false
+    iskin.setgroup:
+        description: Allows the player to changes a groups's attributes.
+        default: false
+    iskin.save:
+        description: Allows the player to force save everyone's skin, cape and title.
+        default: false
+    iskin.reset:
+        description: Allows the player to reset their own and other players skin, cape and title to their default
+        default: false
+    iskin.help:
+        description: Allows the player to use the help command.
+        default: true

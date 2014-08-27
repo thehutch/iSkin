@@ -1,0 +1,8 @@
+General:
+    Autosave: true
+    Autosave-Interval: 1200
+First-Join:
+    Override: false
+    Skin-URL: ""
+    Cape-URL: ""
+    Title: ""
